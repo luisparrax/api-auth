@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 
 const app = express();
-const PORT = process.env.PORT || 3000; // Usa el puerto que Render asigna
+const PORT = process.env.PORT || 10000; // Usa el puerto que Render asigna
 
 app.use(cors());
 app.use(bodyParser.json());
