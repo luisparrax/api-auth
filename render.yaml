@@ -7,4 +7,8 @@ services:
     plan: free
     envVars:
       - key: PORT
+<<<<<<< HEAD
         value: 10000
+=======
+        value: 10000
+>>>>>>> 03463f1c931d051f3baa6bcd81f4e6ebd78576a3
